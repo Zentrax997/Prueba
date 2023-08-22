@@ -1,0 +1,194 @@
+
+/* Aca es donde va el menu lateral izquierda*/
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Icono-menu{
+position: relative;
+top: -60px;
+left: 45px;
+vertical-align: top;
+width: 100px;
+cursor: pointer;
+z-index: 10;
+}
+.cont-menu{
+    background-color: rgba(42, 42, 42);
+    box-shadow: 2px 0px 5px 2px rgba(66, 66, 66);
+    width: 325px;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li:hover{
+background-color: white;
+color:black;
+}
+
+/* ACA VA EL DESPEGABLE DE JAVASCRIPT*/
+
+.active{
+    transform: translate(-600px);
+}
+.opacity{
+    background-color: rgba(0, 0, 0, .5);
+    transition: all .5s ease;
+}
+
+
+/* ACA ES DONDE FINALIZA EL DESPEGABLE DE JAVASCRIPT*/
+
+/* ACA ES DONDE ESTA EL CODIGO DEL SLIDER*/
+
+
+
+/*ACA ES DONDE FINALIZA EL SLIDER*/
+
+.contenedor{
+    position: relative;
+    max-width: 1250px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* oculto lo que queda fuera del .contenedor */
+    contain: paint;
+}
+/* SECCION CONTENEDOR DE ITEMS */
+.contenedor .contenedor-items{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:30px;
+    grid-row-gap: 30px;
+    /* width: 60%; */
+    width: 100%;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item{
+    max-width: 250px;
+    margin: auto;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.contenedor .contenedor-items .item .img-item{
+    width: 100%;
+}
+.contenedor .contenedor-items .item:hover{
+    box-shadow: 0 0 10px #666;
+    scale: 1.09;
+}
+.contenedor .contenedor-items .item .titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor .contenedor-items .item .precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contenedor .contenedor-items .item .boton-item{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  
+  #banner {
+    width: 10px; 
+    padding: 10px;
+    height: 50vh;
+    position: absolute;
+}
+/* menu lateral en la derecha*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 275px;
+    background-color: black;
+    z-index: 100;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .sidebar  {
+    background-color: rgba(42, 42, 42);
+    box-shadow: 2px 0px 5px 2px rgba(66, 66, 66);
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar ul li {
+    color: white;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: white;
+    color:black;
+    
+  }
+  .sidebar ul li a {
+    text-decoration: none;
+  }
+  /*ACA ES DONDE FINALIZA EL MENU DE LA DERECHA*/
+  
+  
+  .sidebar-button {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(400%);
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
