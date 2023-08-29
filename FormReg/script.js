@@ -29,6 +29,12 @@ document.addEventListener('click', e => {
 
     });
 
+    const precioItem = document.querySelector(".precio-item");
 
+    // Get the price
+    const price = precioItem.value;
+    
+    // Set the price
+    precioItem.value = "49.000";
 
 
