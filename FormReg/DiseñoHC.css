@@ -191,3 +191,25 @@ color:black;
     border: none;
     cursor: pointer;
   }
+
+  #banner {
+    display: none;
+  }
+  @media (min-width: 1700px) {
+    #banner {
+      display: block;
+    }
+  }
+  
+  .contenedor-items {
+    position: relative;
+    left: 0;
+    width: 100%;
+    transition: left 0.5s ease-in-out;
+  }
+  
+  @media (max-width: 1600px) {
+    .contenedor-items {
+      left: -50px;
+    }
+  }

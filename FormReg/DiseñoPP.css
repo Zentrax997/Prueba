@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  .container-form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .titulo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .tabla-pedidos {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+  }
+  
+  .tabla-pedidos th {
+    background-color: #ccc;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .tabla-pedidos td {
+    padding: 10px;
+  }
+  
+  .tabla-pedidos tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  .btn {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .carrito {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .carrito ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .carrito li {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .carrito li img {
+    width: 100px;
+  }
+  
+  .carrito li h2 {
+    margin-left: 1rem;
+  }
+  
+  .carrito li p {
+    margin-left: 1rem;
+  }
+  
+  .carrito li .precio {
+    margin-left: 1rem;
+  }
+  
+  .carrito li .boton-item {
+    margin-left: 1rem;
+  }
+  
+  .botones {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .botones .boton-eliminar {
+    background-color: #FF0000;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botones .boton-pagar {
+    background-color: #008CBA;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
